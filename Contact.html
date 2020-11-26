@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Adriana's Contact Details</title>
+</head>
+
+<body>
+  <h1><strong>Contact Me</strong></h1>
+  <p>My fictional contact details</p>
+  <p>Email: adriana@codeschool.com</p>
+  <p>Contact number: +31 620 777 787</p>
+  <hr>
+  <form action="mailto:adrianadw@outlook.com" method="post" enctype="text/plain">
+    <!-- action will be the location url where the data should go to method=post or get-->
+    <h4>Enquiry Form</h4>
+    <ul style="list-style-type:none">
+      <li>
+        <p>
+          <label for="name">Your name:</label>
+          <input type="text" name="user_name" id="name" required>
+        </p>
+      </li>
+      <li>
+        <p>
+          <label for="email">Your Email:</label>
+          <input type="email" name="user_email" id="email" required>
+        </p>
+      </li>
+      <li>
+        <label for"msg">Message:</label>
+        <p>
+          <textarea id:"msg" name="user_message"></textarea>
+        </p>
+      <li class="button">
+        <button type="submit">Send your message</button>
+      </li>
+    </ul>
+  </form>
+
+
+
+</body>
+
+</html>
